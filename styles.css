@@ -1,0 +1,148 @@
+*{                         
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;   
+    font-weight: 400;
+    font-size: 15px; 
+    height: 100vh; /*vai ocupar toda a altura da tela*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(
+        45deg, /*inclinação*/
+    /*    #eeeeee 0%,
+        #fcfcfc 45%,
+        #ececec 100%
+
+    );*/
+}
+h1{
+    font-size: 23px;
+    font-weight: 700;
+    color: rgb(20, 91, 94);
+    padding-bottom: 20px;
+}
+h2{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+h3{
+    font-size: 25px; 
+    font-style: italic;
+    font-weight: 400;
+}
+input{
+    
+    font-family: 'Lato', sans-serif; 
+    font-size: 14px;
+    font-weight: 400; 
+    height: 40px;
+    text-align: center;
+    border: 1px solid cadetblue;
+}
+input, select:focus{
+        outline-color: cadetblue;
+}
+input[type=button]{
+    
+    width: 100%;
+    background-color: cadetblue;
+    font-weight: 700;
+    color: #FFF;
+    
+}
+td{
+  padding:10px;
+  
+}
+select{
+    border: 0px;
+    padding: 5px;
+    font-family: 'Lato', sans-serif;   
+    font-weight: 400;
+    font-size: 15px; 
+}
+
+.container{
+    border-radius: 15px;
+    border: 1px solid #AAA;
+    padding: 30px;
+    width: 600px;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.selecOperacoes{
+    height: 50%;
+    width: 100%;
+
+}
+.digitar{
+    height: 50%;
+    width: 50%;
+}
+
+
+.ajustar{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.solucao{
+   margin-top: 20px;
+    height: 50%;
+    width: 100%;
+  
+}
+.squareRoot{
+   /*text-decoration:overline;*/
+   border-top: 1px solid black;
+   
+}
+
+.validacao{
+    border: 1px solid tomato !important;
+   }
+.validacao::placeholder{
+    color: tomato;
+}
+.triangulo{
+    height: 200px;
+    width: 260px;
+    position: relative;
+}
+
+.lados{
+    position: absolute;
+    left: 10%;
+    transform-origin: left;
+    border: 1px solid #AAA;
+ }
+
+.catetoA{
+   transform: rotate(90deg);
+   left: 16%;
+   top: 22%;
+   width: 50%;
+   
+}
+
+.hipotenusa{
+   transform: rotate(31deg);
+   width: 97%;
+   top: 22%;
+   left: 16%;
+
+}
+.catetoB{
+   top:87%;
+   width: 84%; 
+   left: 16%;
+   
+}
