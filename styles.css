@@ -124,8 +124,14 @@ select{
     transform-origin: left;
     border: 1px solid #AAA;
  }
-
-.catetoA{
+ .letras{
+    position: absolute;
+    left: 10%;
+    transform-origin: left;
+    text-align: center;
+    /*border: 1px solid #AAA;*/
+ }
+.catetoA, .letraA{
    transform: rotate(90deg);
    left: 16%;
    top: 22%;
@@ -133,14 +139,14 @@ select{
    
 }
 
-.hipotenusa{
+.hipotenusa, .letraC{
    transform: rotate(31deg);
    width: 97%;
    top: 22%;
    left: 16%;
 
 }
-.catetoB{
+.catetoB, .letraB{
    top:87%;
    width: 84%; 
    left: 16%;
